@@ -1,0 +1,290 @@
+body {
+  font-size: 15px;
+    line-height: 1.52;
+    /*color: #717f86;*/
+    font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden; 
+}
+/*breaking a block of text in columns*/
+
+.fufu {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
+#event{
+    background: url("img/african-kingdom-exotisches-aus-ghana-14911.jpg");
+    background-size: cover;
+
+}
+.left-images img {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+
+}
+.left-images{
+    padding: 0px;
+}
+.details-text {
+    border-right: 2px solid #841b2d;
+}
+.content-holder h2 {
+    color: #FFB03B;
+    font-size: 32px;
+    padding-bottom: 15px;
+    font-family: 'Satisfy', sans-serif;
+}
+.btn-read-more:hover
+{
+    color: #000;
+}
+#Container .mix{
+    display: none;
+}
+
+
+/*--------blurr background image--------
+
+-webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);-----------------------*/
+
+/* Testimonials Section
+--------------------------------*/
+#testimonials {
+  background-image: url("img/Green-Ghana-Flag-Black-Yellow-Red-Star-1488005.jpg");
+   background-attachment: fixed;
+   padding-bottom: 50px;
+
+
+}
+div {
+    
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+#testimonials .profile {
+  text-align: center;
+}
+
+#testimonials .profile .pic {
+  border-radius: 50%;
+  /*border: 10px solid #fff;*/
+  margin-bottom: 10px;
+  overflow: hidden;
+  height: 250px;
+  width: 250px;
+}
+
+#testimonials .profile .pic img {
+   max-width: 250px;
+   max-height: 250px;
+  
+
+}
+
+#testimonials .profile h4 {
+  font-weight: 500;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#testimonials .profile span {
+  color: white;
+
+}
+
+#testimonials .quote {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 16px;
+  font-style: italic;
+  border-radius: 4px;
+}
+
+#testimonials .quote b {
+  display: inline-block;
+  font-size: 22px;
+  left: -9px;
+  position: relative;
+  top: -8px;
+}
+
+
+/* Portfolio Section
+--------------------------------*/
+#portfolio {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#portfolio .portfolio-item {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 260px;
+  width: 100%;
+  display: table;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#portfolio .portfolio-item .details {
+  height: 260px;
+  background: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  opacity: 0;
+  transition: 0.3s;
+  text-align: center;
+}
+
+#portfolio .portfolio-item .details h4 {
+  font-size: 16px;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  -webkit-transform: translate3d(0, -15px, 0);
+  transform: translate3d(0, -15px, 0);
+  font-weight: 700;
+  color: #333333;
+}
+
+#portfolio .portfolio-item .details span {
+  display: block;
+  color: #666666;
+  font-size: 13px;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  -webkit-transform: translate3d(0, 15px, 0);
+  transform: translate3d(0, 15px, 0);
+}
+
+#portfolio .portfolio-item:hover .details {
+  opacity: 0.8;
+}
+
+#portfolio .portfolio-item:hover .details h4 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+#portfolio .portfolio-item:hover .details span {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+	
+
+
+h1 {
+    color: red;
+    text-align: center;
+    text-shadow: 1.5px 1.5px black;
+}
+
+h4{
+
+  color: white;
+  text-align: center;
+}
+
+h2 {
+
+	color: gold;
+	text-align: center;
+	text-shadow: 1.5px 1.5px black;
+}
+
+h3 {
+
+  color:white;
+  font-family: 'Satisfy', sans-serif;
+  font-size: 200px;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+/* === section blog === */
+
+section#blog {
+  background: #f2f2f2;
+}
+
+.home-post {
+  background:#fff;
+  
+}
+
+.home-post:hover {
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+
+.home-post .entry-content {
+  padding:20px;
+}
+.home-post .entry-content h5 a {
+  font-size:22px;
+}
+.home-post .entry-content h5 a:hover {
+  color:#312f2b;
+  text-decoration:none;
+}
+.home-post .entry-content a.more {
+  font-size:13px;
+}
+.home-post .post-meta {
+  padding:20px;
+  overflow:hidden;
+  color:#fcfcfc;
+}
+.home-post .post-meta i {
+  float:left;
+  margin-right:20px;
+}
+.home-post .post-meta span {
+  margin-top:10px;
+}
+.home-post .post-meta span.date {
+  font-weight:700;
+  font-size:13px;
+  float:left;
+}
+.home-post .post-meta span.tags {
+  font-weight:700;
+  font-size:13px;
+  float:right;
+  color:#ddd;
+}
+.home-post .post-meta span.tags a {
+  color:#fcfcfc;
+}
+
