@@ -27,11 +27,23 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!--for bullseye blinker-->
+    
     <link rel="stylesheet" href="path/to/jquery.bullseye.css">
+
 </head>
 <body>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://www.jqueryscript.net/demo/jQuery-Plugin-For-Animated-Image-Notes-Markers-Bullseye/src/jquery.bullseye.js"></script>
+<link rel="stylesheet" href="https://www.jqueryscript.net/demo/jQuery-Plugin-For-Animated-Image-Notes-Markers-Bullseye/styles/jquery.bullseye.css">
+
+
+<div class="demo">
+  <img src="https://www.jqueryscript.net/demo/jQuery-Plugin-For-Animated-Image-Notes-Markers-Bullseye/i/demopic.jpg" height="" width="" alt="">
+</div>
+
 <script>
+
 $('.demo').bullseye({
   top: 30, // Determines bullseye position from top.
   left: 5, // Determines bullseye position from left.
@@ -39,7 +51,7 @@ $('.demo').bullseye({
   right: 10, // Determines bullseye position from right.
   heading: "Image Note 1", // Heading content
   content: "Content 1", // Paragraph content
-  orientation: "left", // <a href="http://www.jqueryscript.net/tooltip/">Tooltip</a> orientation
+  orientation: "left", // <a href="https://www.jqueryscript.net/tooltip/">Tooltip</a> orientation
   color: "#fzff", // Dot and dot animation color. 
   onHoverMarkAsRead: true
 }).bullseye({
@@ -62,11 +74,13 @@ $('.demo').bullseye({
 <style>
 
 body {
+
+  background-color: #dce9f4;
   font-size: 15px;
     line-height: 1.52;
     /*color: #717f86;*/
     font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
     font-weight: 400;
     overflow-x: hidden; 
 }
@@ -262,11 +276,11 @@ h1 {
     text-shadow: 1.5px 1.5px red;
 }
 
-h4{
+/*h4{
 padding-bottom: 50px;
 padding-top: 1px;
 
-}
+}*/
 
 h2 {
 
@@ -278,14 +292,14 @@ h2 {
 h3{
 
   color: white;
-  font-family: 'sans-serif';
+  /*font-family: 'sans-serif';*/
     font-size: 20px;
 }
 
 
 
 p {
-    font-family: 'Bookman';
+    /*font-family: 'Bookman';*/
     font-size: 20px;
 }
 
@@ -344,11 +358,6 @@ img {
     margin: 0 0 10px 10px;
 }
 
-/*
- * Start Bootstrap - One Page Wonder (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
@@ -370,13 +379,13 @@ body {
 }
 
 .headline h1 {
-    font-size: 130px;
+    font-size: 40px;
     background: #fff;
     background: rgba(255,255,255,0.9);
 }
 
 .headline h2 {
-    font-size: 77px;
+    font-size: 40px;
     background: #fff;
     background: rgba(255,255,255,0.9);
 }
@@ -397,9 +406,9 @@ body {
     margin-left: 40px;
 }
 
-.featurette-heading {
-    font-size: 50px;
-}
+/*.featurette-heading {
+    font-size: 40px;
+}*/
 
 footer {
     margin: 50px 0;
@@ -437,7 +446,7 @@ footer {
     }
 
     .headline h2 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .featurette-divider {
@@ -495,7 +504,7 @@ footer {
     }
 
     .headline h1 {
-        font-size: 60px;
+        font-size: 20px;
     }
 
     .headline h2 {
@@ -523,15 +532,15 @@ footer {
     }
 }
 
-span {
+/*span {
 
-  padding-top: 20px;
-}
+  padding-top: 10px;
+}*/
 
 </style>
-
+<h2>The Gold coast</h2> 
 <div class="container">
-  <h2>The Gold coast</h2> 
+  
 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -579,6 +588,10 @@ span {
     </a>
   </div>
 </div>
+
+<br></br>
+
+<img src="img/kente.png" style="width:100%;">
 
 <!--==========================
   PRESIDENT Section
@@ -730,7 +743,7 @@ span {
 <!--Wrap your image into a container.-->
 <!--<div class="demo">-->
 
-  <div><p style="float: right;"><img src="img/MAPS.png" height="370px" width="670px" alt="" hspace="20"></p>
+  <div><p style="float: right;"><img src="img/MAPS.png" height="370px" width="670px" alt="" hspace="20"></p></div>
 
   <!--The hspace attribute of <img> is not supported in HTML5. Use CSS instead.
 
@@ -853,9 +866,9 @@ Sunyani: 7° 19' N, 2° 19' W</h5></p>
             <p>
             The method of cooking Jollof rice begins with first preparing the beef or chicken by seasoning and frying it until it is well cooked.
             <p>
-            The rest of the ingredients are then fried altogether, starting from onions, tomatoes and spices in that order. After all the ingredients have been fried, rice is then added and cooked until the meal is prepared. </p>
+            The rest of the ingredients are then fried altogether, starting from onions to increase the flavour, tomatoes and spices in that order. After all the ingredients have been fried, rice is then added and cooked until the meal is prepared. </p>
             <p>
-            Ghanaian Jollof is typically served with side dishes of beef , lamb or chicken well seasoned and fried fish or mixed vegetables , it can also be served with chips and works well with coleslaw.</p>
+            Ghanaian Jollof is typically served with side dishes of beef , lamb or chicken well seasoned and fried fish , tuna flakes or sardines and mixed vegetables , it can also be served with chips and works well with coleslaw.</p>
             </p>
           </div>
         </a>
@@ -895,8 +908,8 @@ Sunyani: 7° 19' N, 2° 19' W</h5></p>
 
             <p>The cornflour , is left to ferment for about six hours. Then one tablespoon of vinegar is added and mixed into the wet cornflour.
 
-            The dry corn is soaked in water. for about three days, then drain and washed in fresh water. It is then Grounded and water added to make it into a dough with a smooth surface. It is Kept in a warm place to ferment for two to three days before using it to prepare the kenkey. Before using it for the preparation, the moldy surface on top should be removed and discarded.
-            keykey is usually served or sold wrapped in dried corn cob leaves . </p>
+            The dry corn is soaked in water. for about three days, then drain and washed in fresh water. It is then Grounded and water added to make it into a dough with a smooth surface. It is Kept in a warm place to ferment for 2 to 3 days before using it to prepare the kenkey. Before using it for the preparation, the moldy surface on top should be removed and discarded.
+            keykey is usually served or sold wrapped in dried corn leaves. </p>
             </p>
           </div>
         </a>
@@ -1078,7 +1091,7 @@ After the February 1966 military coup, the new leaders wanted to remove the face
             <h2 class="featurette-heading">The Gold
                 <span class="text-muted">Coast</span>
             </h2>
-            <p class="lead">Ghana is Africa's largest gold producer, producing 80.5 t in 2008.Gold is a major export commodity for Ghana, with this precious metal bringing in nearly 48 percent of the country's revenue. After South Africa, Ghana is the largest gold producer in Africa and in the first quarter of 2012, the country earned around $1.5 billion through export of gold. </p>
+            <p>Ghana is Africa's largest gold producer, producing 80.5 t in 2008.Gold is a major export commodity for Ghana, with this precious metal bringing in nearly 48 percent of the country's revenue. After South Africa, Ghana is the largest gold producer in Africa and in the first quarter of 2012, the country earned around $1.5 billion through export of gold. </p>
 
             <p>According to the Bank of Ghana, the country will continue seeing an increase in revenue with gold exports. It is expected that in 2012, Ghana will earn more than $4 billion with gold exports. 
 
@@ -1095,7 +1108,7 @@ Ghana has always relied heavily on a select few commodities and exports just tho
             <h2 class="featurette-heading">Precious
                 <span class="text-muted"> diamond</span>
             </h2>
-            <p class="lead">Diamond mining in Ghana is situated in the Birim Valley, near Akwatia. Usually, these diamonds are mined by small scale miners from alluvial as well as in-situ deposits. Under the British, Ghana had one of the biggest state-owned diamond miners in the world, but once the British left, diamond mining operations have gone down and it is now confined to the small scale sector. Unfortunately, diamond mining in the country has not taken off as the government would have liked it to, with the country producing around 400,000 carats a month.</p>
+            <p>Diamond mining in Ghana is situated in the Birim Valley, near Akwatia. Usually, these diamonds are mined by small scale miners from alluvial as well as in-situ deposits. Under the British, Ghana had one of the biggest state-owned diamond miners in the world, but once the British left, diamond mining operations have gone down and it is now confined to the small scale sector. Unfortunately, diamond mining in the country has not taken off as the government would have liked it to, with the country producing around 400,000 carats a month.</p>
             <p>
               A half century ago, Akwatia was one of the most productive diamond spots on the planet. Diamonds were discovered at the nearby Birim River in 1920, when the nation was a British colony called the Gold Coast. By the end of that decade, production neared a million carats yearly, doubling by 1935.
             </p>
@@ -1113,9 +1126,11 @@ Ghana has always relied heavily on a select few commodities and exports just tho
             <h2 class="featurette-heading">Ghana's
                 <span class="text-muted">Cocoa.</span>
             </h2>
-            <p class="lead">Ghana is the second largest cocoa exporter in the world. Cocoa cultivation is not native to the country; Ghana's cocoa cultivation, however, is noted within the developing world to be one of the most modeled commodities.
+            <p>Ghana is the second largest cocoa exporter in the world. Cocoa cultivation is not native to the country; Ghana's cocoa cultivation, however, is noted within the developing world to be one of the most modeled commodities.
 
-Cocoa production occurs in the country's forested areas: Ashanti Region, Brong-Ahafo Region, Central Region, Eastern Region, Western Region, and Volta Region, where rainfall is 1,000-1,500 millimeters per year. The crop year begins in October, when purchases of the main crop begin, with a smaller mid-crop cycle beginning in July. All cocoa, except that which is smuggled out of the country, is sold at fixed prices to the Cocoa Marketing Board. Although most cocoa production is carried out by peasant farmers on plots of less than three hectares, a small number of farmers appear to dominate the trade. Indeed, some studies show that about one-fourth of all cocoa farmers receive just over half of total cocoa income..</p>
+Cocoa production occurs in the country's forested areas: Ashanti Region, Brong-Ahafo Region, Central Region, Eastern Region, Western Region, and Volta Region, where rainfall is 1,000-1,500 millimeters per year. </p>
+
+<P>The crop year begins in October, when purchases of the main crop begin, with a smaller mid-crop cycle beginning in July. All cocoa, except that which is smuggled out of the country, is sold at fixed prices to the Cocoa Marketing Board. Although most cocoa production is carried out by peasant farmers on plots of less than three hectares. Indeed, some studies show about one-fourth of all cocoa farmers receive just over half of total cocoa income..</p>
         </div>
 
         <hr class="featurette-divider">
@@ -1240,4 +1255,8 @@ tetteh quashie and cocoa-->
 	
 </body>
 </html>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="path/to/jquery.bullseye.js"></script>
+
 
