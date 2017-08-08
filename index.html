@@ -37,32 +37,24 @@
 <script src="https://www.jqueryscript.net/demo/jQuery-Plugin-For-Animated-Image-Notes-Markers-Bullseye/src/jquery.bullseye.js"></script>
 <link rel="stylesheet" href="https://www.jqueryscript.net/demo/jQuery-Plugin-For-Animated-Image-Notes-Markers-Bullseye/styles/jquery.bullseye.css">
 
-
+<!--to determine the position i have left this empty div-->
 <div class="demo">
-  <img src="img src="img/MAPS.jpg" height="370px" width="670px" alt="" hspace="20"" height="" width="" alt="">
+  
 </div>
 
 <script>
 
 $('.demo').bullseye({
-  top: 2870, // Determines bullseye position from top.
-  left: 760, // Determines bullseye position from left.
-  bottom: 200, // Determines bullseye position from bottom.
-  right: 1050, // Determines bullseye position from right.
-  heading: "Ghana", // Heading content
-  content: "West Africa", // Paragraph content
+  top: 2510, // Determines bullseye position from top.
+  left: 780, // Determines bullseye position from left.
+ 
+  heading: "Ghana-West Africa", // Heading content
+  content: "Geographic coordinates-8°00′N 2°00′W", // Paragraph content
   orientation: "left", // <a href="https://www.jqueryscript.net/tooltip/">Tooltip</a> orientation
-  color: "#fzff", // Dot and dot animation color. 
-  onHoverMarkAsRead: true
-}).bullseye({
-  bottom: 30,
-  right: 4,
-  heading: "Image Note 2",
-  content: "Content 1",
-  color: "#fff",
-  orientation: "right"
 
-});
+  color: "yellow", // Dot and dot animation color. 
+  onHoverMarkAsRead: true
+})
 </script>
 
 <style>
@@ -737,7 +729,7 @@ footer {
 <!--Wrap your image into a container.-->
 <!--<div class="demo">-->
 
-  <div><p style="float: right;"><img src="img/MAPS.png" height="370px" width="670px" alt="" hspace="20"></p></div>
+  <div><p style="float: right;"><img src="img/1200px-BlankMap-Africa.svg.png" height="370px" width="680px" alt="" hspace="20"></p></div>
 
   <!--The hspace attribute of <img> is not supported in HTML5. Use CSS instead.
 
@@ -1204,9 +1196,9 @@ Ghana has more than seventy ethnic groups, each with its own distinct language.<
   
   <p>Twi is a dialect of Akan, a member of the Kwa sub-group of Niger-Congo languages. There are about 7 million Twi speakers, mainly in Ghana. Major dialects of Twi include Akuapim Twi, Fante Twi and Ashanti Twi, which all mutually intelligible.</p>
 </div>
-
+<!--adding (?autoplay=1) to the end of the video link makes it to autoplay-->
 <!--learning twi video-->
-<iframe width="700" height="420" src="https://www.youtube.com/embed/z1dFcaovkc4?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="420" src="https://www.youtube.com/embed/z1dFcaovkc4" frameborder="0" allowfullscreen></iframe>
 
 <img src="img/pop.png" alt="" width="350" height="350">
 
